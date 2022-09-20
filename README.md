@@ -1,2 +1,2 @@
-![alt text](https://raw.githubusercontent.com/HonusDaniel/breakout-java/main/screenshot.png)
+![alt text](https://raw.githubusercontent.com/dhonus/breakout-java/main/screenshot.png)
 

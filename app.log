@@ -1,0 +1,112 @@
+2022-05-10 09:06:00,400 INFO o.h.j.i.u.LogHelper [JavaFX Application Thread] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-10 09:06:00,455 INFO o.h.Version [JavaFX Application Thread] HHH000412: Hibernate ORM core version [WORKING]
+2022-05-10 09:06:00,652 INFO o.h.a.c.Version [JavaFX Application Thread] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-10 09:06:00,789 WARN o.h.o.c.pooling [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-10 09:06:00,899 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-10 09:06:00,900 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001001: Connection properties: {}
+2022-05-10 09:06:00,900 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001003: Autocommit mode: false
+2022-05-10 09:06:00,902 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [JavaFX Application Thread] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-10 09:06:01,986 INFO o.h.d.Dialect [JavaFX Application Thread] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-10 09:06:01,994 WARN o.h.d.DerbyDialect [JavaFX Application Thread] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-10 09:06:02,480 INFO o.h.o.c.access [JavaFX Application Thread] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@14bfb178] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-10 09:06:02,823 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [JavaFX Application Thread] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 09:06:02,988 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001008: Cleaning up connection pool [jdbc:derby:db/hon0102;create=true]
+2022-05-10 09:06:03,032 INFO c.j.h.Main [JavaFX Application Thread] the game has started
+2022-05-10 09:06:04,654 INFO o.h.j.i.u.LogHelper [ForkJoinPool.commonPool-worker-1] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-10 09:06:04,673 WARN o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-10 09:06:04,674 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-10 09:06:04,674 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001001: Connection properties: {}
+2022-05-10 09:06:04,675 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001003: Autocommit mode: false
+2022-05-10 09:06:04,675 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [ForkJoinPool.commonPool-worker-1] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-10 09:06:04,684 INFO o.h.d.Dialect [ForkJoinPool.commonPool-worker-1] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-10 09:06:04,685 WARN o.h.d.DerbyDialect [ForkJoinPool.commonPool-worker-1] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-10 09:06:04,708 INFO o.h.o.c.access [ForkJoinPool.commonPool-worker-1] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f8cf9f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-10 09:06:04,741 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [ForkJoinPool.commonPool-worker-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-10 09:06:04,802 INFO c.j.h.Controller [JavaFX Application Thread] true true
+2022-05-10 09:06:04,802 INFO c.j.h.Controller [JavaFX Application Thread] Scores saved successfuly to database and file
+2022-05-13 09:01:41,675 INFO o.h.j.i.u.LogHelper [JavaFX Application Thread] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-13 09:01:41,703 INFO o.h.Version [JavaFX Application Thread] HHH000412: Hibernate ORM core version [WORKING]
+2022-05-13 09:01:41,838 INFO o.h.a.c.Version [JavaFX Application Thread] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 09:01:41,965 WARN o.h.o.c.pooling [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-13 09:01:42,033 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-13 09:01:42,033 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001001: Connection properties: {}
+2022-05-13 09:01:42,033 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001003: Autocommit mode: false
+2022-05-13 09:01:42,035 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [JavaFX Application Thread] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-13 09:01:42,302 INFO o.h.d.Dialect [JavaFX Application Thread] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-13 09:01:42,309 WARN o.h.d.DerbyDialect [JavaFX Application Thread] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-13 09:01:42,677 INFO o.h.o.c.access [JavaFX Application Thread] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b6817e8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-13 09:01:42,851 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [JavaFX Application Thread] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 09:01:43,001 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001008: Cleaning up connection pool [jdbc:derby:db/hon0102;create=true]
+2022-05-13 09:01:43,037 INFO c.j.h.Main [JavaFX Application Thread] the game has started
+2022-05-13 09:01:46,998 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-05-13 09:01:46,999 INFO o.h.j.i.u.LogHelper [ForkJoinPool.commonPool-worker-1] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-13 09:01:47,005 WARN o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-13 09:01:47,006 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-13 09:01:47,006 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001001: Connection properties: {}
+2022-05-13 09:01:47,006 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001003: Autocommit mode: false
+2022-05-13 09:01:47,006 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [ForkJoinPool.commonPool-worker-1] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-13 09:01:47,008 INFO o.h.d.Dialect [ForkJoinPool.commonPool-worker-1] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-13 09:01:47,008 WARN o.h.d.DerbyDialect [ForkJoinPool.commonPool-worker-1] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-13 09:01:47,022 INFO o.h.o.c.access [ForkJoinPool.commonPool-worker-1] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76474b6b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-13 09:01:47,030 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [ForkJoinPool.commonPool-worker-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 09:01:47,084 INFO c.j.h.Controller [JavaFX Application Thread] true true
+2022-05-13 09:01:47,085 INFO c.j.h.Controller [JavaFX Application Thread] Scores saved successfuly to database and file
+2022-05-13 10:50:36,000 INFO o.h.j.i.u.LogHelper [JavaFX Application Thread] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-13 10:50:36,032 INFO o.h.Version [JavaFX Application Thread] HHH000412: Hibernate ORM core version [WORKING]
+2022-05-13 10:50:36,166 INFO o.h.a.c.Version [JavaFX Application Thread] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 10:50:36,267 WARN o.h.o.c.pooling [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-13 10:50:36,345 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-13 10:50:36,346 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001001: Connection properties: {}
+2022-05-13 10:50:36,346 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001003: Autocommit mode: false
+2022-05-13 10:50:36,349 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [JavaFX Application Thread] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-13 10:50:36,501 INFO o.h.d.Dialect [JavaFX Application Thread] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-13 10:50:36,507 WARN o.h.d.DerbyDialect [JavaFX Application Thread] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-13 10:50:36,928 INFO o.h.o.c.access [JavaFX Application Thread] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@70228dce] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-13 10:50:37,138 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [JavaFX Application Thread] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 10:50:37,273 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001008: Cleaning up connection pool [jdbc:derby:db/hon0102;create=true]
+2022-05-13 10:50:37,307 INFO c.j.h.Main [JavaFX Application Thread] the game has started
+2022-05-13 10:50:57,355 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-05-13 10:50:57,356 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-05-13 10:50:57,361 INFO o.h.j.i.u.LogHelper [ForkJoinPool.commonPool-worker-1] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-05-13 10:50:57,377 WARN o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-13 10:50:57,378 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-05-13 10:50:57,378 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001001: Connection properties: {}
+2022-05-13 10:50:57,379 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001003: Autocommit mode: false
+2022-05-13 10:50:57,379 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [ForkJoinPool.commonPool-worker-1] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-13 10:50:57,382 INFO o.h.d.Dialect [ForkJoinPool.commonPool-worker-1] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-05-13 10:50:57,384 WARN o.h.d.DerbyDialect [ForkJoinPool.commonPool-worker-1] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-05-13 10:50:57,409 INFO o.h.o.c.access [ForkJoinPool.commonPool-worker-1] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e7ef062] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-13 10:50:57,416 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [ForkJoinPool.commonPool-worker-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 10:50:57,470 INFO c.j.h.Controller [JavaFX Application Thread] true true
+2022-05-13 10:50:57,470 INFO c.j.h.Controller [JavaFX Application Thread] Scores saved successfuly to database and file
+2022-09-20 22:31:30,492 INFO o.h.j.i.u.LogHelper [JavaFX Application Thread] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-09-20 22:31:30,535 INFO o.h.Version [JavaFX Application Thread] HHH000412: Hibernate ORM core version [WORKING]
+2022-09-20 22:31:30,731 INFO o.h.a.c.Version [JavaFX Application Thread] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-20 22:31:30,943 WARN o.h.o.c.pooling [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-09-20 22:31:31,046 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-09-20 22:31:31,047 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001001: Connection properties: {}
+2022-09-20 22:31:31,047 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001003: Autocommit mode: false
+2022-09-20 22:31:31,049 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [JavaFX Application Thread] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-09-20 22:31:31,261 INFO o.h.d.Dialect [JavaFX Application Thread] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-09-20 22:31:31,267 WARN o.h.d.DerbyDialect [JavaFX Application Thread] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-09-20 22:31:31,682 INFO o.h.o.c.access [JavaFX Application Thread] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748e1890] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-09-20 22:31:31,982 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [JavaFX Application Thread] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-20 22:31:32,144 INFO o.h.o.c.pooling [JavaFX Application Thread] HHH10001008: Cleaning up connection pool [jdbc:derby:db/hon0102;create=true]
+2022-09-20 22:31:32,194 INFO c.j.h.Main [JavaFX Application Thread] the game has started
+2022-09-20 22:31:34,891 INFO c.j.h.Ball [JavaFX Application Thread] hit brick at 289.7142857142857 287.2857142857143
+2022-09-20 22:31:37,366 INFO c.j.h.Ball [JavaFX Application Thread] hit brick at 253.5 287.2857142857143
+2022-09-20 22:31:38,213 INFO o.h.j.i.u.LogHelper [ForkJoinPool.commonPool-worker-1] HHH000204: Processing PersistenceUnitInfo [name: hon0102]
+2022-09-20 22:31:38,217 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-09-20 22:31:38,217 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-09-20 22:31:38,218 INFO c.j.h.Controller [ForkJoinPool.commonPool-worker-2] Saving score 0 to file
+2022-09-20 22:31:38,225 WARN o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-09-20 22:31:38,226 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001005: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:db/hon0102;create=true]
+2022-09-20 22:31:38,226 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001001: Connection properties: {}
+2022-09-20 22:31:38,226 INFO o.h.o.c.pooling [ForkJoinPool.commonPool-worker-1] HHH10001003: Autocommit mode: false
+2022-09-20 22:31:38,227 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [ForkJoinPool.commonPool-worker-1] HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-09-20 22:31:38,229 INFO o.h.d.Dialect [ForkJoinPool.commonPool-worker-1] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2022-09-20 22:31:38,230 WARN o.h.d.DerbyDialect [ForkJoinPool.commonPool-worker-1] HHH000328: Unable to load/access derby driver class sysinfo to check versions : class org.hibernate.dialect.DerbyDialect (in module org.hibernate.orm.core) cannot access class org.apache.derby.tools.sysinfo (in module org.apache.derby.tools) because module org.apache.derby.tools does not export org.apache.derby.tools to module org.hibernate.orm.core
+2022-09-20 22:31:38,262 INFO o.h.o.c.access [ForkJoinPool.commonPool-worker-1] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17a4f679] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-09-20 22:31:38,274 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [ForkJoinPool.commonPool-worker-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-20 22:31:38,341 INFO c.j.h.Controller [JavaFX Application Thread] true true
+2022-09-20 22:31:38,341 INFO c.j.h.Controller [JavaFX Application Thread] Scores saved successfuly to database and file

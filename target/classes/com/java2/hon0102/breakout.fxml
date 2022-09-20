@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="507.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java2.hon0102.Controller">
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="507.0" style="-fx-background-color: #0d0d0d;" BorderPane.alignment="CENTER">
+        <buttons>
+            <Button fx:id="left" alignment="CENTER" mnemonicParsing="false" onAction="#stop" style="-fx-background-color: black;" text="%stop" textAlignment="CENTER" textFill="WHITE" translateX="-222.0" />
+          <Button fx:id="right" alignment="CENTER" mnemonicParsing="false" onAction="#pause" style="-fx-background-color: black;" text="%pause" textAlignment="CENTER" textFill="WHITE" translateX="86.0" />
+            <Button id="start" mnemonicParsing="false" onAction="#start" style="-fx-background-color: black;" text="%start" textFill="WHITE" translateX="-209.0" />
+        </buttons>
+      </ButtonBar>
+   </bottom>
+   <center>
+      <Canvas fx:id="breakoutCanvas" height="676.0" width="507.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
